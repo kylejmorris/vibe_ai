@@ -20,7 +20,8 @@ It can also recommend quick 5m tasks to help empower your network like
 # How to contribute
 3 Major chunks of code, each should be able to run standalone as mini projects you can hack on. Kyle Morris will orchestrate the DB layer + make things speak nicely to eachother.
 
-## Scraping: If you want to write a scraper add a file or function to /scrapers that you could run standalone to fetch a bunch of useful info, such as linkedin dms, or facebook profile info. Make sure you figure out the auth, test it so it works reliably
+## Scraping
+If you want to write a scraper add a file or function to /scrapers that you could run standalone to fetch a bunch of useful info, such as linkedin dms, or facebook profile info. Make sure you figure out the auth, test it so it works reliably
 
 ## AI Layer: 
 	If you want to try writing your own query logic add a file to the /query directory that reads the Database and then outputs stuff, can just be in CLI for now
