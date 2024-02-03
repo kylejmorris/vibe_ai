@@ -24,7 +24,7 @@ It can also recommend quick 5m tasks to help empower your network like
 If you want to write a scraper add a file or function to /scrapers that you could run standalone to fetch a bunch of useful info, such as linkedin dms, or facebook profile info. Make sure you figure out the auth, test it so it works reliably
 
 ## AI Layer: 
-	If you want to try writing your own query logic add a file to the /query directory that reads the Database and then outputs stuff, can just be in CLI for now
+If you want to try writing your own query logic add a file to the /query directory that reads the Database and then outputs stuff, can just be in CLI for now
 
 ## Frontend
 If you want to try some frontend, go to /frontend and make your own subdirectory. For eg., /frontend/python_cli if you want to try a CLI or /frontend/nextapp if you want to try a jsx app, or /frontend/streamlit if you want a streamlit app. Make sure you don't break the other frontends with yours
