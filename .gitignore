@@ -1,0 +1,6 @@
+.env
+chromadb/
+
+utils/
+src/__pycache__
+people_data/

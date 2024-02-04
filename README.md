@@ -29,3 +29,19 @@ If you want to try writing your own query logic add a file to the /query directo
 ## Frontend
 If you want to try some frontend, go to /frontend and make your own subdirectory. For eg., /frontend/python_cli if you want to try a CLI or /frontend/nextapp if you want to try a jsx app, or /frontend/streamlit if you want a streamlit app. Make sure you don't break the other frontends with yours
 
+### Adding Data: 
+
+How to use: 
+- create a new database: run `python src/db_create_collection.py`, type CREATE 
+- Reset (erase) database: run `python src/db_create_collection.py`, type RESET. then run `python src/db_create_collection.py` again, and type CREATE
+
+- add data:  run `python src/main.py`
+- query data: run `python src/db_query_data.py`
+- to run the local chromadb server, run `python src/main.py`
+
+Main functions to update: 
+- chunk_long_document (if you want a different chunking algorithm)
+- chunk_long_document
+
+*Notes on adding data*
+- Right now, we add each one in the same main.py. There's something about the chroma client that gets reset and so doesn't put it in the same spot. 
