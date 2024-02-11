@@ -1,6 +1,0 @@
-[x] scrape 10 at once 
-[ ] move the linkedin-api lib into my project dir so i can continue modding it as part of project
-[ ] write function to turn urn into full profile dump in /profiles as txt files
-[ ] use the 10 sample urns and fetch their profiles using functions 
-[ ] extend to all profiles on my acc
-
